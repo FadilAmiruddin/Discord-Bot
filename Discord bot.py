@@ -194,12 +194,7 @@ async def GamesPlayed(ctx):
     await ctx.send("TotalGamesPlayed:" + str(users['701234205669064844']['Lib Loss']))
 
 
-@client.command()
-async def AmIGay(ctx):
-    if (str(ctx.author.id) == '440309965337657345'):
-       await ctx.send("you are not gay")
-    else:
-      await  ctx.send("you are " + str(random.randint(1, 101))+ "% " + "gay")
+
 @client.command()
 async def AmILib(ctx, m=1):
     while (True):
